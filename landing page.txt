@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time TO Travel</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: blanchedalmond;
+        }
+
+        .center-table {
+            margin:auto;
+            text-align: center;
+        }
+
+        .cabang {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            grid-gap: 20px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Time TO Travel</h1>
+    <img src="img-1.jpg" width="1250" height="500" alt="banner">
+    <h3> Cari paket wisata terlengkap dan termurah hanya di TIME TO TRAVEL.
+        Boking paket tour dan liburan bersama keluarga terbaik diindonesia dan seluruh dunia.
+        "HAPPY HOLIDAY"
+    </h3>
+
+    <div class="cabang">
+        <div>
+            <h2>Destinasi wisata</h2>
+
+            <table border="5" width="300" bordercolor="blue" class="center-table">
+                <tr>
+                    <td>Pariwisata Bali</td>
+                    <td>IDR.500K</td>
+                    <td>alamat</td>
+                </tr>
+                <tr>
+                    <td>Pariwisata Wonosobo</td>
+                    <td>IDR.700K</td>
+                    <td>alamat</td>
+                </tr>
+                <tr>
+                    <td>Pariwisata Batam</td>
+                    <td>IDR.1000K</td>
+                    <td>alamat</td>
+                </tr>
+                <tr>
+                    <td>Pariwisata prambanan</td>
+                    <td>IDR.750K</td>
+                    <td>alamat</td>
+                </tr>
+                <tr>
+                    <td>pariwisata jambi</td>
+                    <td>IDR.550K</td>
+                    <td>alamat</td>
+                </tr>
+                <tr>
+                    <td>pariwisata raja empat</td>
+                    <td>IDR.900K</td>
+                    <td>alamat</td>
+                </tr>
+                <tr>
+                    <td>pariwisata padang</td>
+                    <td>IDR.800K</td>
+                    <td>alamat</td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <h2>Promo & Paket</h2>
+
+            <table border="50" width="300" bordercolor="yellow" class="center-table">
+                <tr>
+                    <td>DISKON : 30%</td>
+                    <td>PEMBAYRAN KARTU KREDIT BCA</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+    <table width="100%">
+        <tr>
+            <td><img src="pariwisata-jambi.jpg" height="145" alt="pariwisata"></td>
+            <td><img src="pariwisata-padang.jpg" height="145" alt="pariwisata"></td>
+            <td><img src="pariwisata-bali.jpg" height="145" alt="pariwisata"></td>
+            <td><img src="pariwisata-Raja empat.jpg" height="145" alt="pariwisata"></td>
+            <td><img src="pariwisata-wonosobo.jpg" height="145" alt="pariwisata"></td>
+        </tr>
+        <tr>
+            <td>
+                <h4>pariwisata jambi</h4>
+            </td>
+            <td>
+                <h4>pariwisata padang</h4>
+            </td>
+            <td>
+                <h4>pariwisata Bali</h4>
+            </td>
+            <td>
+                <h4>pariwisata Raja empat</h4>
+            </td>
+            <td>
+                <h4>pariwisata Wonosobo</h4>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
